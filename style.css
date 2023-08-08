@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+} 
+.sidebar{
+    background-color: aqua; 
+    position: absolute;
+    font-family: 'Franklin Gothic Medium'; 
+    height:100vh; 
+    transition: tranform 0.3s ease-in;
+} 
+.sidebar nav{
+    padding:45px;
+} 
+.sidebar nav li {
+    list-style-type: none; 
+    font-size: 30px; 
+    padding:33px 0;
+
+} 
+.sidebarGo{
+    transform: translate(-443px,0px); 
+    position: absolute;
+}  
+.hamburger {
+    position: absolute; 
+    cursor: pointer; 
+    top:10px;
+    left:10px;
+} 
+.cross{
+    margin-left: 150px; 
+    margin-top: 0px;
+} 
+.ham {
+    margin-left: 10px;
+}
+.main{
+    background-color: blueviolet; 
+    width:100vw; 
+    height:100vh;
+} 
+.container{
+    display: flex;
+} 
+.infoContainer {
+    background-color: brown; 
+    height:58vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content:space-around;
+}  
+.devPic img {
+    height:58vh; 
+} 
+.devInfo {
+    display:flex;
+    justify-content: center; 
+    flex-direction:column;
+} 
+.hello {
+    font-size:65px;
+} 
+.name {
+ font-size: 50px;
+} 
+.about {
+ font-size: 40px;
+}  
+.buttons {
+    margin-top: 34px;
+}
+.btn {
+ padding:9 px 14px;
+ border-radius: 22px; 
+ color:azure;
+ background-color: blue; 
+ font-weight: bold; 
+ font-size: 21px; 
+ margin:0 3px; 
+ cursor: pointer;
+}   
+.btn-sm {
+    font-size: 14px; 
+    padding:10px 19px;
+    margin:12px 0;
+} 
+.headd {
+    text-align: center; 
+    margin-top: 30px;
+}
+.btn:hover {
+    background-color: aquamarine; 
+    color: blue;
+}
+.sidebar nav li a {
+    text-decoration: none; 
+    color:white;
+} 
+.contactform {
+    padding:0 34px;
+    padding-top:144px;
+    font-family: 'Gill Sans', 'Gill Sans MT'; 
+    margin:0 88px;
+} 
+.contactform h1{
+    padding: 12px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.contactform form div{
+    padding:10px 0; 
+    display:flex;
+    flex-direction: column;
+} 
+#emailHelp{
+    font-size: 11px; 
+    color: midnightblue; 
+    margin:0 5px; 
+    padding: 3px 0 0 0;
+} 
+#form-check {
+    flex-direction:row;
+}
+#form-check input {
+    width:24px; 
+    margin:3px 0;
+}
+.contactform form div input{
+   width:26vw;
+   border-radius: 5px; 
+   margin:6px 0 0 0;
+   padding:3px;
+} 
+
+.divi {
+    display:flex;
+    justify-content: center; 
+}
+
+.first {
+    background-color: bisque; 
+    border-color: rgb(238, 255, 0); 
+    height: 70px;
+    width: 90px; 
+    padding:10px ;
+    margin:20px; 
+    text-align: center; 
+    margin-top: 70px; 
+    padding-top:30px;
+} 
+.write {
+    font-size: 20px; 
+    color: azure; 
+    padding:70px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+} 
+.head {
+    text-align: center; 
+    padding:10px;
+}
